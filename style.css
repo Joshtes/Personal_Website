@@ -70,4 +70,13 @@ body {
 
 .main-body-p {
     font-weight: bold;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.main-body-img-logo {
+    width: 100px;
+    height: 30px;
+    padding-top: 100px;
+    padding-bottom: 25px;
 }
