@@ -5,7 +5,7 @@
 
 body { 
     width: 100%;
-    background-color: rgba(164, 219, 255, 0.322);
+    background-color: rgba(255, 255, 255, 0.486);
 }
 
 .header-img {
@@ -19,7 +19,11 @@ body {
    
     
 }
-
+.whitebckgrnd {
+    background-color: rgba(255, 255, 255, 0.486);
+    width: 100%;
+    text-align: center;
+}
 .inner-header {
     text-align: center;
     position:absolute;
@@ -48,3 +52,5 @@ body {
     font-family:'Poiret One', 'cursive' ;
    
 }
+
+
