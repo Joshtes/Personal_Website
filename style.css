@@ -47,6 +47,7 @@ body {
     margin-top: 50px;
     font-family:'Poiret One', 'cursive';
     color: rgb(105, 105, 105); 
+ 
 }
 
 .main-body-h1 {
@@ -124,4 +125,23 @@ a:link {
   /* mouse over link */
   a:hover {
     color: rgb(0, 153, 255);
+  }
+
+  .paragraph-container {
+      background-color: chartreuse;
+      height: 200px;
+      width: 600px;
+      position: relative;
+      left: 500px;
+      bottom: 150px;
+      font-size: 15pt;
+      font-weight: lighter;
+      font-family:serif;
+      font-style: normal;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.733);
+      border: solid 1px;
+      padding: 10px;
+      padding-bottom: 0px;
+      border-color: rgb(204, 204, 204);
   }
