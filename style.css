@@ -41,7 +41,7 @@ body {
 .main-body {
     text-align: center;
     position: relative;
-    padding-top: 100px;
+    padding-top: 20px;
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -92,4 +92,18 @@ body {
     width: 100px;
     padding-top: 100px;
     padding-bottom: 25px;
+}
+
+.nav-bar {
+    text-align: center;
+    position: relative;
+    padding-top: -5px;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.nav-bar-links {
+    display:inline-block;
+    margin-right: 90px;
+    margin-left: 90px;
 }
