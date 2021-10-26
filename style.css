@@ -129,11 +129,10 @@ a:link {
   }
 
   .paragraph-container {
-      background-color: chartreuse;
       height: 200px;
       width: 600px;
       position: relative;
-      left: 500px;
+      left: 650px;
       bottom: 150px;
       font-size: 15pt;
       font-weight: lighter;
