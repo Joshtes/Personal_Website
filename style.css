@@ -12,6 +12,7 @@ body {
     background-image: url(./page_images/banner-6.jpg);
     background-color: rgb(173, 173, 173);
     height: 44%;
+    width: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
