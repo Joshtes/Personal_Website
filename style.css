@@ -41,6 +41,7 @@ body {
 .main-body {
     text-align: center;
     position: relative;
+    padding-top: 100px;
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -71,11 +72,12 @@ body {
 .main-body-p {
     font-weight: bold;
     font-size: 12pt;
+    float:left, none;
     padding-bottom: 0px;
     padding-right: 300px;
     font-family:'Times New Roman', Times, serif;
     color: black;
-    text-align: center;
+   
     
 }
 
