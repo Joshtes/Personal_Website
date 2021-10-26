@@ -11,7 +11,7 @@ body {
 .header-img {
     background-image: url(./page_images/banner-6.jpg);
     background-color: rgb(173, 173, 173);
-    height: 30%;
+    height: 45%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 200px;
+    margin-top: 50px;
     font-family:'Poiret One', 'cursive';
     color: rgb(105, 105, 105); 
 }
@@ -57,21 +57,32 @@ body {
     padding-left: 300px;
     padding-top: 80px;
     padding-bottom: 20px;
-    color:rgb(26, 163, 255);
+    color:rgb(0, 107, 179);
 }
 
 .main-body-img {
-    display: block;
+    display:block;
     width: 150px;
     height: 150px;
     padding-left: 300px;
-    float: left, none;
+    
 }
 
 .main-body-p {
     font-weight: bold;
-    padding-top: 150px;
-    padding-bottom: 20px;
+    font-size: 12pt;
+    padding-bottom: 0px;
+    padding-right: 300px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    
+}
+
+.main-body-pg {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family:sans-serif;
 }
 
 .main-body-img-logo {
