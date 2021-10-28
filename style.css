@@ -146,3 +146,27 @@ a:link {
       padding-bottom: 0px;
       border-color: rgb(204, 204, 204);
   }
+
+  .footer-container {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(131, 255, 8, 0.507);
+    background-image: url(./page_images/banner-8.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 10;
+    display: block;
+    
+  }
+
+  .footer-form {
+      height: 200px;
+      width: 500px;
+      background-color: rgb(255, 0, 0);
+      position: relative;
+      display: block;
+      left: 700px;
+      border: solid 1px;
+  }
