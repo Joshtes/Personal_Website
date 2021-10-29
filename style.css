@@ -150,7 +150,7 @@ a:link {
   .footer-container {
     height: 400px;
     width: 100%;
-    background-color: rgba(131, 255, 8, 0.507);
+    background-color: rgba(216, 216, 216, 0.507);
     background-image: url(./page_images/banner-8.jpg);
     background-position:center;
     background-repeat: no-repeat;
@@ -161,12 +161,64 @@ a:link {
     
   }
 
+   /* FORM STYLING BELOW THIS */
+
   .footer-form {
-      height: 200px;
       width: 500px;
-      background-color: rgb(255, 0, 0);
+      background-color: rgba(248, 248, 248, 0.445);
       position: relative;
       display: block;
+      top: 100px; 
       left: 700px;
       border: solid 1px;
+      text-align: left;
+      font-family:'Poiret One', 'cursive';
+      font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    text-align: left;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: rgba(78, 78, 78, 0.473);
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 6em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-bottom: 10px;;
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    margin-left: .5em;
   }

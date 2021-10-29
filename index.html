@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
         <title>Welcome</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
         </div>
         <nav class="nav-bar">
             <a class= "nav-bar-links" href="https://github.com/Joshtes">Github</a>
-            <a class= "nav-bar-links" href="youtube.com">Contact</a>
+            <a class= "nav-bar-links" href="#footer-container-id">Contact</a>
             <a class= "nav-bar-links" href="https://www.linkedin.com/in/joshua-t-strickland/">LinkedIn</a>
         </nav>
         <div class="main-body">
@@ -37,7 +38,7 @@
                 src= ./page_images/flatironschool.png
                 />
             <div class="paragraph-container">
-                <p>test paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest </p>
+                <p>I'm currently a student at Flatiron School; an intensive coding program that teaches modern technologies such as Javascript, React, HTML/CSS, Sinatra, Ruby on Rails, SQL, JSON API , and Redux. Why did I decide to learn programming? Because I love to create, problem solve, and come up with solutions. I have a passion for technology and I'm eager to push the boundaries in what I know. It is my mission to develop projects that help and inspire people.</p>
             </div>
             
             <h2 class= "main-body-h2">Purdue University Global <p class="main-body-pg">In Progress</p>&nbsp;&nbsp;<p class= "main-body-p">BS in Information Technology <br>Programming and Software Development</p></h2>
@@ -47,7 +48,7 @@
              />
 
              <div class="paragraph-container">
-                <p>test paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest </p>
+                <p>I'm currently an undergrad student at Purdue Univeristy. Before taking the leap into development, I initially started a degree in Cybersecurity. I learned all about networking, the OSI model, servers, firewalls, ports, TCP/UDP, and how to keep data secure. These concepts carry over into programming, and now my degree focus is currently in Programming and Software Development. </p>
             </div>
 
             <h2 class= "main-body-h2">National Rural Telecommunications Coop <p class="main-body-pg">08/2021 to 10/2021</p>&nbsp;&nbsp;<p class= "main-body-p">Technical Support Specialist</p></h2>
@@ -57,7 +58,7 @@
                 />
 
                 <div class="paragraph-container">
-                    <p>test paragraptest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest </p>
+                    <p>My first job in tech was a short contract position at the National Rural Telecommunications Coop. Since I love helping others, I used my knowledge and training to assist rural communities with their networking and internet connectivity as a Tier 1 Tech Support Specialist. I learned how important it is to create simple, easy-to-follow designs for my projects that are user friendly. Technology works best with team oriented problem solving and good communication.</p>
                 </div>
         
             <h2 class= "main-body-h2">Bon Secours <p class="main-body-pg">03/2021 to 08/2021</p>&nbsp;&nbsp;<p class= "main-body-p">Patient Care Technician</p></h2>
@@ -67,23 +68,36 @@
                 />
 
                 <div class="paragraph-container">
-                    <p>test paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest paragraphtest </p>
+                    <p>I have always had a passion for helping people. I worked in the hospital as a Patient Care Tech/Certified Nursing Assistant for just shy of two years before entering the tech field with my most recent position being at Bon Secours. I started my journey in healthcare just as the Covid pandemic hit in Janurary 2020. I worked hands on with patients in an Intensive Care Unit and Orthopedic Unit. I will always be deeply passionate about helping others when they are in need and I'm eager to bring that passion into my code and software.  </p>
                 </div>
 
-            <div class= "footer-container"></div>
-                <section class= "footer">
-
-
+            <div id="footer-container-id" class= "footer-container"></div>
+                <section class= "footer-form">
+                    <form id="submit" action= "" method="post">
+                        <ul>
+                            <li>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name">
+                            </li>
+                            <li>
+                                <label for="mail">Email:</label>
+                                <input type="email" id="mail" name="user_email">
+                            </li>
+                            <li>
+                                <label for="msg">Message:</label>
+                                <textarea id="msg" name="user_message">
+                                </textarea>
+                            </li>
+                            <li class="button">
+                                <button id= "button" type="submit">Send your message</button>
+                            </li>
+                        </ul>
+                    </form>
                 </section>
-
-                <a href="https://www.linkedin.com/in/joshua-t-strickland/">
-                <img class= "main-body-img-logo" src= ./page_images/linked-logo.png />
-                </a>
-
             </div>
                 <br>
                 <br>
-            <!-- <script src="script.js"></script> -->
         </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html> 
